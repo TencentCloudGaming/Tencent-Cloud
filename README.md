@@ -1,7 +1,4 @@
 # 왕자영요(王者荣耀) 백그라운드 개선 Proxy편 
-Gaming Solution 
-
-yongzhang
 
 Tencent 게임 클라우드 솔루션 아키텍트 Nelson:
 왕자영요는 세계에서 가장 인기 있는 모바일 게임 중 하나이며 DAU의 수익이 1억을 돌파했습니다. 
@@ -18,7 +15,6 @@ Tencent 게임 클라우드 솔루션 아키텍트 Nelson:
 
  
 IEG/Tianmei L1 Studio/Server Team Staff 
-
 
 왕자영요 Backstage Architecture 
 
