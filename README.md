@@ -21,6 +21,7 @@ IEG/Tianmei L1 Studio/Server Team Staff
 
 
 왕자영요 Backstage Architecture 
+
 ![image](https://user-images.githubusercontent.com/92770458/139357843-3f605bef-2d67-4ed4-8580-3a724db37443.png)
 
  왕자영요 백그라운드의 특징: 
@@ -42,6 +43,7 @@ Proxy CPU 문제 개선
 초당 proxy 프로세스가 처리하는 데이터 패킷의 양이 원래 3w+/s에서 2w8/s로 감소했지만 CPU는 뚜렷하게 낮아지지 않고 여전히 90% 이상입니다.
 
 문제 분석: 
+
 ![image](https://user-images.githubusercontent.com/92770458/139357907-8dbd932b-3c17-4c97-8d7b-add9294d4873.png)
 
 
