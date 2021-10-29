@@ -3,6 +3,8 @@ Gaming Solution
 
 yongzhang
 
+
+
 Tencent 게임 클라우드 솔루션 아키텍트 Nelson:
 왕자영요는 세계에서 가장 인기 있는 모바일 게임 중 하나이며 DAU의 수익이 1억을 돌파했습니다. 
 이렇게 많은 수의 사용자를 수용하는 방법은 왕자영요의 백엔드 아키텍처에 대한 도전 과제입니다. 
@@ -18,6 +20,8 @@ Proxy 자체의 안정성과 성능은 왕자영요 백스테이지에서 매우
 IEG/Tianmei L1 Studio/Server Team Staff 
 
 왕자영요 Backstage Architecture 
+ ![image](https://user-images.githubusercontent.com/92770458/139357700-68914179-34dd-4c2c-a9b5-146e48847a6e.png)
+
 왕자영요 백그라운드의 특징: 
 1.	운영 전략 측면으로 볼 때 지역과 서버가 구분되는 게임이지만 구현 측면으로 보면 전체 지역과 서버 아키텍처이며 버디와 클랜 등 시스템은 논리적 파티션 전반에 걸쳐 서비스를 제공합니다.
  gamesvr, roommatch 및 relaysvr은 모두 리소스 풀 형태로 서비스를 제공합니다.
