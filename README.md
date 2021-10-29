@@ -1,6 +1,5 @@
-# Tencent-Cloud
+# 왕자영요(王者荣耀) 백그라운드 개선 Proxy편 
 Gaming Solution 
-왕자영요(王者荣耀) 백그라운드 개선 Proxy편 
 yongzhang
 
 Tencent 게임 클라우드 솔루션 아키텍트 Nelson:
