@@ -21,7 +21,7 @@ IEG/Tianmei L1 Studio/Server Team Staff
 
 
 왕자영요 Backstage Architecture 
-  ![image](https://user-images.githubusercontent.com/92770458/139357843-3f605bef-2d67-4ed4-8580-3a724db37443.png)
+![image](https://user-images.githubusercontent.com/92770458/139357843-3f605bef-2d67-4ed4-8580-3a724db37443.png)
 
  왕자영요 백그라운드의 특징: 
 1.	운영 전략 측면으로 볼 때 지역과 서버가 구분되는 게임이지만 구현 측면으로 보면 전체 지역과 서버 아키텍처이며 버디와 클랜 등 시스템은 논리적 파티션 전반에 걸쳐 서비스를 제공합니다. gamesvr, roommatch 및 relaysvr은 모두 리소스 풀 형태로 서비스를 제공합니다.
@@ -67,7 +67,8 @@ Proxy는 다른 모든 프로세스와의 통신 채널을 만들어야 합니�
 일단 막아내고 나중에 개선: 
 현재 네트워크 tbus 채널 용량을 모니터링한 후, tbus 채널 크기를 20M에서 10M으로 줄이고 계속 확장할 수 있도록 해야 합니다. 
 Proxy 아키텍처 조정
-  ![Uploading image.png…]()
+
+![Uploading image.png…]()
 
 Proxy의 현재 병목 현상은 메모리에 있습니다. 해결책은 Proxy를 그룹화하는 것입니다. 각 Proxy 그룹은 일부 gamesvr, relaysvr 및 기타 모든 프로세스를 담당합니다. 
 Proxy는 서로 통신합니다. 목적지 주소가 이 그룹에 없으면 해당 Proxy 그룹으로 전달됩니다. 
