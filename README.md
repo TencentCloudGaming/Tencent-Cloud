@@ -70,7 +70,7 @@ Proxy는 다른 모든 프로세스와의 통신 채널을 만들어야 합니�
 
 Proxy 아키텍처 조정
 
-![Uploading image.png…]()
+ ![Uploading image.png…]()
 
 Proxy의 현재 병목 현상은 메모리에 있습니다. 해결책은 Proxy를 그룹화하는 것입니다. 각 Proxy 그룹은 일부 gamesvr, relaysvr 및 기타 모든 프로세스를 담당합니다. 
 Proxy는 서로 통신합니다. 목적지 주소가 이 그룹에 없으면 해당 Proxy 그룹으로 전달됩니다. 
